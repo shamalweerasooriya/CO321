@@ -15,7 +15,7 @@ int main(void)
 
     DDRB = DDRB | (0x1E); // Set pins 1-4 in PORTB as output pins
     int x = 1;            // int value that determines which way to move
-    int i;                // increment value that sets the direction of movement (left if 1, right if 0)
+    int i;                // increment value that sets the direction of movement (left if 1, right if 4)
 
     // Infinite loop
     while (1)
