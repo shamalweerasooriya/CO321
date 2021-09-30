@@ -19,7 +19,7 @@ int main()
 {
 
     DDRD &= ~(0x0C); // sets PD2 (INT0) and PD3 (INT1) as input
-    DDRB = 0x3F;     // sets PD0-PD5 as outputs
+    DDRB = 0x3F;     // sets PB0-PB5 as outputs
 
     EICRA |= (1 << ISC01);  // sets for falling edge detetcion for INT0
     EICRA &= ~(1 << ISC00); // sets for falling edge detection for INT0
