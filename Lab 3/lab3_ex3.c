@@ -4,7 +4,7 @@
     Calculating the maximum possible generated delay using TIMER0:
     XTAL = 16MHz ---> T = 1/16000 ms
     The maximum count that can be counted in TIMER0 is 256.
-    Therefore when the smallest prescaling value is used,
+    Therefore when the largest prescaling value is used,
     Maximum delay = (256 x 1024 / 16000)ms = 16.384ms.
 */
 
